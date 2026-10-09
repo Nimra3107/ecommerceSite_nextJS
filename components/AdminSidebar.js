@@ -79,13 +79,13 @@ function AdminSidebar() {
 
         <nav className="admin-nav">
 
-          // <Link
-          //   href="/admin"
-          //   className={linkClass("/admin")}
-          //   onClick={closeMenu}
-          // >
-          //   Dashboard
-          // </Link>
+          <Link
+            href="/admin"
+            className={linkClass("/admin")}
+            onClick={closeMenu}
+          >
+            Dashboard
+          </Link>
 
           <Link
             href="/admin/products"
